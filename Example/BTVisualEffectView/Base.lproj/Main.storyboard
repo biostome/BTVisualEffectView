@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="BTViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Nbu-Tt-zbg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KzW-bX-UL8">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift" translatesAutoresizingMaskIntoConstraints="NO" id="Wl3-XO-hoE">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="167"/>
+                                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift" translatesAutoresizingMaskIntoConstraints="NO" id="AxM-lJ-kK5">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="167"/>
+                                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dY0-Jw-lcf">
+                                        <rect key="frame" x="0.0" y="167" width="375" height="166.5"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift" translatesAutoresizingMaskIntoConstraints="NO" id="8l9-bj-y8Y">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="166.5"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift" translatesAutoresizingMaskIntoConstraints="NO" id="o5X-7W-DLO">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="166.5"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Eum-SA-PzY">
+                                        <rect key="frame" x="0.0" y="333.5" width="375" height="167"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift" translatesAutoresizingMaskIntoConstraints="NO" id="909-CH-Pv8">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="167"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift" translatesAutoresizingMaskIntoConstraints="NO" id="cRf-YS-WYx">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="167"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4TQ-Jr-wiR">
+                                        <rect key="frame" x="0.0" y="500.5" width="375" height="166.5"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift" translatesAutoresizingMaskIntoConstraints="NO" id="NPW-DJ-chY">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="166.5"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift" translatesAutoresizingMaskIntoConstraints="NO" id="gYO-CA-4KQ">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="166.5"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="34I-BT-Cy8">
+                                <rect key="frame" x="34" y="318.5" width="307" height="31"/>
+                                <color key="minimumTrackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="maximumTrackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="thumbTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="sliderAction:" destination="whP-gf-Uak" eventType="valueChanged" id="Azv-Rj-iNB"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Nbu-Tt-zbg" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="3IX-vm-XsK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="34I-BT-Cy8" secondAttribute="trailing" constant="20" id="5ML-fa-ns3"/>
+                            <constraint firstItem="34I-BT-Cy8" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="8ZJ-Km-jAM"/>
+                            <constraint firstItem="34I-BT-Cy8" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="TD9-3g-fhz"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="Nbu-Tt-zbg" secondAttribute="bottom" id="XFL-bE-eWh"/>
+                            <constraint firstAttribute="trailing" secondItem="Nbu-Tt-zbg" secondAttribute="trailing" id="jLg-VS-PlH"/>
+                            <constraint firstItem="34I-BT-Cy8" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="kFo-1F-qdn"/>
+                            <constraint firstItem="Nbu-Tt-zbg" firstAttribute="top" secondItem="TpU-gO-2f1" secondAttribute="top" id="wVs-1a-Re9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="34I-BT-Cy8" id="u50-Nr-jVS"/>
+                        <outletCollection property="blurImageViews" destination="Wl3-XO-hoE" id="e5n-u6-FaH"/>
+                        <outletCollection property="blurImageViews" destination="8l9-bj-y8Y" id="FW4-ds-pTO"/>
+                        <outletCollection property="blurImageViews" destination="o5X-7W-DLO" id="A8E-PG-vBB"/>
+                        <outletCollection property="blurImageViews" destination="909-CH-Pv8" id="FMZ-Ki-9BU"/>
+                        <outletCollection property="blurImageViews" destination="cRf-YS-WYx" id="8mm-CD-AXg"/>
+                        <outletCollection property="blurImageViews" destination="NPW-DJ-chY" id="222-v9-AVf"/>
+                        <outletCollection property="blurImageViews" destination="gYO-CA-4KQ" id="wwc-sV-bKt"/>
+                        <outletCollection property="blurImageViews" destination="AxM-lJ-kK5" id="pdf-B1-bA8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="swift" width="64" height="64"/>
+    </resources>
+</document>
